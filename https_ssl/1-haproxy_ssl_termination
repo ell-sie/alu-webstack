@@ -45,5 +45,5 @@ backend backendnodes
         option forwardfor
         http-request set-header X-Forwarded-Port %[dst_port]
         http-request add-header X-Forwarded-Proto https if { ssl_fc }
-        server 4826-web-01 52.91.59.143:80 check
-        server 4826-web-02 54.90.160.55:80 check
+        server 4836-web-01 54.197.135.238:80 check
+        server 4836-web-02 54.160.250.129:80 check
